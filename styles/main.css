@@ -45,6 +45,31 @@ header li {
 }
 /* HEADER */
 
+/* HERO */
+
+#hero {
+  width: 100%;
+
+}
+
+#hero_title {
+  font-size: 8em;
+  color: #fff;
+  padding: 25%;
+  position: relative;
+}
+
+.hero {
+  background-image: url("../assets/hero.jpg");
+    border: solid yellow 3px;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
 
 html, body {
   margin-top: -10px;
