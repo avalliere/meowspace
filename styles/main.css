@@ -56,15 +56,38 @@ header li {
   font-size: 8em;
   color: #fff;
   padding: 25%;
+  text-align: center;
   position: relative;
 }
 
 .hero {
   background-image: url("../assets/hero.jpg");
-    border: solid yellow 3px;
+  border: solid yellow 3px;
   background-size: cover;
   height: 100%;
   position: relative;
+}
+
+/* HERO */
+
+/* POSTS */
+
+#pop_posts {
+  font-size: 3em;
+  text-align: center;
+}
+
+.posts article {
+  border: solid black 2px;
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  float: none;
+  clear: both;
+}
+
+.posts {
+  margin: 15%;
 }
 
 img {
