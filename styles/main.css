@@ -92,15 +92,42 @@ header li {
 
 .posts article {
   border: solid black 2px;
+  border-radius: 5%;
   display: inline-block;
   width: 25%;
   height: 300px;
-  float: none;
-  clear: both;
+  vertical-align: top;
+  margin: 20px;
 }
 
 .posts {
-  margin: 15%;
+  margin: 20px 15% 20px 20%;
+}
+
+.posts article h3 {
+  border-bottom: solid black 2px;
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+}
+
+.posts a {
+  border: solid black 2px;
+  border-radius: 15%;
+  width: 800px;
+  height: 50px;
+  padding: 5px 15px 5px 15px;
+  /*padding: 10px;*/
+  /*text-align: center;*/
+  text-transform: uppercase;
+  /*display: block;*/
+  /*margin: auto;*/
+  /*margin-top: 25px;*/
+
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 100px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 img {
