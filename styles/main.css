@@ -141,7 +141,7 @@ header li {
 /* JOIN THE CLUB */
 #club {
   border: solid black 2px;
-  height: 300px;
+  height: 400px;
   clear: both;
 }
 
@@ -166,7 +166,7 @@ header li {
   width: 400px;
   float: right;
   clear: right;
-  margin-right: 10%;
+  /*margin-right: 10%;*/
   border: solid red 2px;
   /*clear: left;*/
   /*clear: both;*/
@@ -174,13 +174,14 @@ header li {
 
 .half-width {
   position: relative;
-  width: 40vw;
+  width: 45vw;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin-top: 5%;
 }
 
 /* JOIN THE CLUB */
+
 
 
 
