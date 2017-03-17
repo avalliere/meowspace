@@ -23,9 +23,12 @@ a {
 /* HEADER */
 
 header {
-  background-color: #6C7A89;
+  /*background-color: #6C7A89;*/
+  background-color: #333;
   height: 100px;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 100;
 }
@@ -34,13 +37,6 @@ header h2 {
   float:left;
   padding-top: 25px;
 }
-
-/*Dan's example*/
-/*header h2 {
-  /*display: inline-block;*/
-  /*float: right;
-  margin-right: 15px;
-}*/
 
 header h2 a {
   font-size: 2em;
@@ -68,11 +64,6 @@ header li {
 
 /* HERO */
 
-#hero {
-  width: 100%;
-
-}
-
 #hero_title {
   font-size: 8em;
   color: #fff;
@@ -83,16 +74,12 @@ header li {
 
 .hero {
   background-image: url("../assets/hero.jpg");
-  border: solid yellow 3px;
-  background-size: cover;
   height: 100%;
   position: relative;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
 }
 
 /* HERO */
@@ -129,26 +116,16 @@ header li {
 
 .posts a {
   border: solid black 2px;
-  border-radius: 15%;
+  border-radius: 15px;
   width: 800px;
   height: 50px;
   padding: 5px 15px 5px 15px;
-  /*padding: 10px;*/
-  /*text-align: center;*/
   text-transform: uppercase;
-  /*display: block;*/
-  /*margin: auto;*/
-  /*margin-top: 25px;*/
-
   margin-left: 15%;
   margin-right: 15%;
-  /*margin-top: 100px;*/
-  box-sizing: border-box;
-
 }
 
 .posts p {
-  /*margin-bottom: 50px;*/
   height: 45%;
   padding: 10px;
 }
@@ -163,15 +140,11 @@ header li {
 #club h2 {
   font-size: 3em;
   margin-left: 10%;
-  /*margin-top: 10px;
-  margin-bottom: 10px;*/
-  /*width: 25%;*/
 }
 
 #club p {
   float: left;
   clear: left;
-  /*width: 25%;*/
   margin-left: 10%;
   text-align: justify;
   margin-top: 5%;
@@ -181,10 +154,6 @@ header li {
   width: 400px;
   float: right;
   clear: right;
-  /*margin-right: 10%;*/
-  border: solid red 2px;
-  /*clear: left;*/
-  /*clear: both;*/
 }
 
 .half-width {
@@ -200,17 +169,12 @@ header li {
 /* EVERYBODY WANTS TO BE A CAT*/
 .cat {
   background-image: url("../assets/everybody.jpg");
-  background-position: center;
   height: 500px;
-  background-size: cover;
   position: relative;
-  border: solid green 2px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  /*background-position: center;*/
+  background-position: center;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
 }
 
 .cat h2 {
@@ -224,6 +188,7 @@ header li {
 }
 
 footer {
+  background-color: #333;
   height: 200px;
 }
 
@@ -233,6 +198,7 @@ footer h4, footer p {
   float: left;
   clear: left;
   margin: 20px 0 0 50px;
+  color: #eeeeee;
 }
 
 footer nav {
