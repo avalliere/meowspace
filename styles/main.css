@@ -182,6 +182,25 @@ header li {
 
 /* JOIN THE CLUB */
 
+/* EVERYBODY WANTS TO BE A CAT*/
+.cat {
+  background-image: url("../assets/everybody.jpg");
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  border: solid green 2px;
+}
+
+.cat h2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 
 
