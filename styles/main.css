@@ -95,7 +95,7 @@ header li {
   border-radius: 5%;
   display: inline-block;
   width: 25%;
-  height: 300px;
+  height: 350px;
   vertical-align: top;
   margin: 20px;
 }
@@ -107,6 +107,7 @@ header li {
 .posts article h3 {
   border-bottom: solid black 2px;
   padding: 15px 10px 15px 10px;
+  margin-top: 10px;
   text-align: center;
   height: 15%;
 }
@@ -124,16 +125,17 @@ header li {
   /*margin: auto;*/
   /*margin-top: 25px;*/
 
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   /*margin-top: 100px;*/
   box-sizing: border-box;
 
 }
 
 .posts p {
-  margin-bottom: 50px;
-  height: 40%;
+  /*margin-bottom: 50px;*/
+  height: 55%;
+  padding: 10px;
 }
 
 /* JOIN THE CLUB */
