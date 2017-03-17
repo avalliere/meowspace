@@ -148,30 +148,41 @@ header li {
 #club h2 {
   font-size: 3em;
   margin-left: 10%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: solid red 2px;
-  width: 25%;
+  /*margin-top: 10px;
+  margin-bottom: 10px;*/
+  /*width: 25%;*/
 }
 
 #club p {
   float: left;
   clear: left;
-  width: 25%;
+  /*width: 25%;*/
   margin-left: 10%;
   text-align: justify;
-  /*margin-top: 5%;*/
+  margin-top: 5%;
 }
 
 #club img {
-  width: 25%;
+  width: 400px;
   float: right;
-  margin: 25px;
+  clear: right;
+  margin-right: 10%;
+  border: solid red 2px;
   /*clear: left;*/
   /*clear: both;*/
 }
 
+.half-width {
+  position: relative;
+  width: 40vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5%;
+}
+
 /* JOIN THE CLUB */
+
+
 
 img {
   width: 100%;
