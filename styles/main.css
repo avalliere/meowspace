@@ -202,6 +202,35 @@ header li {
   text-align: center;
 }
 
+footer {
+  height: 200px;
+}
+
+
+footer h4, p {
+  width: 40%;
+  float: left;
+  clear: left;
+  margin: 20px 0 0 50px;
+}
+
+footer nav {
+  float: right;
+  clear: right;
+  width: 40%;
+}
+
+footer nav ul {
+  position: relative;
+  transform: translateY(15%);
+  height: 100px;
+}
+
+footer a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
 
 
 img {
